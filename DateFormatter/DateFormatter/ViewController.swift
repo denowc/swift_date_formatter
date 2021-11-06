@@ -37,8 +37,7 @@ class ViewController: UIViewController {
         
         lbl.text = Utils.getFormattedStringFromDate(date: Date(), format: "yyyy-MMM-dd")
         
-        // Uncomment below code to align center
-        // lbl.center = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
+        lbl.center = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
         
         self.view.addSubview(lbl)
     }
