@@ -4,7 +4,7 @@
 ### Author : Denow Cleetus
 ### Updated by Deepesh Rohra
 
-### Usage
+#### Usage
 
 <sub>Swift</sub>
 ```swift
