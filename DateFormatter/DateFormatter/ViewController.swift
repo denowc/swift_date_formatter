@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     
     func showDate() {
-        let lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        let lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 100))
         
         
         
@@ -25,16 +25,18 @@ class ViewController: UIViewController {
         lbl.backgroundColor = .gray
         lbl.textColor = .white
         
-        // Uncomment below code for change 1
+        // Change 1
         // lbl.textColor = .red
         
-        // Uncomment below code for change 2
-        // lbl.textColor = .blue
         
-        
+        // Change 2
+        // Change fornt size to 25
         lbl.font = UIFont.systemFont(ofSize: 12)
         lbl.textAlignment = .center
         
+        
+        // Change 3
+        // Change date format to 'MMM dd, yyyy'
         lbl.text = Utils.getFormattedStringFromDate(date: Date(), format: "yyyy-MMM-dd")
         
         lbl.center = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
