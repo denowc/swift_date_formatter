@@ -6,7 +6,7 @@
 ### Group 24
 ### Modified by: Deepesh Rohra [11/06/2021]
 
-### Usage
+#### Usage
 
 <sub>Swift</sub>
 ```swift
