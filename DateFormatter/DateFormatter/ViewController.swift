@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         // Change 3
         // Change date format to 'MMM dd, yyyy'
-        lbl.text = Utils.getFormattedStringFromDate(date: Date(), format: "yyyy-MMM-dd")
+        lbl.text = Utils.getFormattedStringFromDate(date: Date(), format: "yyyy-MM-dd")
         
         lbl.center = CGPoint(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/2)
         
