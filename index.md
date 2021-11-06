@@ -1,8 +1,8 @@
 # Swift Date Formatter
 Date Formatter - Sample code on how to use Date Formatter in swift language
 
-# Author : Denow Cleetus
-# updated by Deepesh Rohra
+### Author : Denow Cleetus
+### updated by Deepesh Rohra
 
 ### Usage
 
