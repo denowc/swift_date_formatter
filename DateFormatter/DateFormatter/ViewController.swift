@@ -13,17 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
         showDate()
     }
 
     
     func showDate() {
         let lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 100))
-        
-        
-        
-        
         lbl.backgroundColor = .gray
         lbl.textColor = .white
         
